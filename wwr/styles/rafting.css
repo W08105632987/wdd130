@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #301934;
+    --secondary-color: #747578;
+    --accent1-color: #7D84B2;
+    --accent2-color: #F78764;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    text-align: center; 
+
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: solid black;
+}
+h1 {
+    color: solid black;
+    padding: 1rem;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2 {
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+strong {
+    color: var(--accent2-color);
+}
+.social {
+    color: var(--accent1-color);
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: solid black;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+
+
+}
+.hero h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    position: absolute;
+    bottom: 100px;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+}
+.hero {
+    position: relative;
+    bottom: 0;
+}
+.hero-article {
+    position: absolute;
+    bottom: 100px;
+}
+.hero-article {
+    float: right;
+}                                                                                                                                                                                                           
+
+
+
+
