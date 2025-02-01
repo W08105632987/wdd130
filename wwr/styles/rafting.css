@@ -1,25 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --primary-color: #301934;
     --secondary-color: #747578;
     --accent1-color: #7D84B2;
     --accent2-color: #F78764;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 header {
     background-color: var(--primary-color);
     color: white;
-    padding: 2rem;
+    padding: 0.5rem;
     text-align: center; 
-
+    display: grid;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     line-height: 1.5;
-    color: solid black;
+    color:  black;
 }
 h1 {
-    color: solid black;
+    color: black;
     padding: 1rem;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -33,19 +37,25 @@ h2 {
 }
 
 strong {
-    color: var(--accent2-color);
+    color: blue;
+    font-weight: bolder;
 }
 .social {
-    color: var(--accent1-color);
+    color: #fff;
     text-decoration: none;
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+    background-color: var(--primary-color);
+    font-size: small;
 }
 body {
     font-family: 'Roboto', sans-serif;
-    color: solid black;
+    color: black;
 }
 .container {
-    width: 100%;
-    max-width: 1200px;
+    width: auto;
+    max-width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 1rem;
     border-radius: 8px;
@@ -60,11 +70,12 @@ body {
 }
 .hero h1 {
     font-size: 2.5rem;
-    color: var(--primary-color);
+    color: black;
     position: absolute;
-    bottom: 100px;
-    background-color: var(--secondary-color);
-    padding: 1rem;
+    bottom: 90%;
+    text-align: center;
+
+
 }
 .hero {
     position: relative;
@@ -74,9 +85,147 @@ body {
     position: absolute;
     bottom: 100px;
 }
-.hero-article {
-    float: right;
-}                                                                                                                                                                                                           
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: var(--secondary-color);
+    padding: 0;
+    gap: 0rem;
+    overflow: hidden;
+    
+} 
+.img {
+    justify-content: center;
+}
+.banner img {
+    object-fit: cover;
+    margin-top: 70px;
+    width: 100%;
+    opacity: 0.4;
+    
+}
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex: 1 1 auto;
+    border-radius: 8px;
+
+
+}
+
+figcaption {
+    color: black; 
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: grid;
+}
+.history {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    justify-content: center;
+}
+  .history h2 {
+        display: flex;
+    }
+    .history p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .item:nth-child(1) {
+        order:3;
+    }
+
+    .item:nth-child(2) {
+        order:1;
+    }
+    .menu {
+        margin: 0;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #fff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+       
+      
+    }
+    
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    button {
+        font-size: 1rem;
+        gap: 0;
+        position: relative;
+        right: 120%;
+    }
+    .icons {
+        display: flex;   
+        font-size: small;    
+    }
+    footer {
+        width: auto;
+        padding-top: 10px;
+    }
+    .social p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        color: white;
+    }
+    article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        position: absolute;
+        bottom: 0;
+        top: 50px;
+        font-stretch: expanded;
+        
+    }
+    section h2 {
+        text-align: center;
+    }
+  
+    
+    
+
+  
+
 
 
 

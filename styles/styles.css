@@ -12,10 +12,14 @@ nav a {
     color: #eee; 
     display: block;
     padding: 20px; 
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 h1 {
     color: darkblue;
     font-family: 'rock salt', 'bradley hand' sans-serif;
+    border-bottom: 1px solid black;
 }
 img {
     width: 150px;
@@ -35,6 +39,8 @@ aside {
     position: relative;
     width: 20rem;
     text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 aside img {
     width: 200px;
@@ -71,5 +77,18 @@ body {
 }
 .ident{
     padding-left: 2rem;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid {
+    align-items: center;
+    display: grid;
+}
+main {
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
