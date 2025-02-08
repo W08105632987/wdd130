@@ -15,6 +15,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    width: 100%;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -34,6 +35,7 @@ h2 {
     padding: 1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5rem;
+    display: flex;
 }
 
 strong {
@@ -45,7 +47,7 @@ strong {
     text-decoration: none;
     padding: 20px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     background-color: var(--primary-color);
     font-size: small;
 }
@@ -90,6 +92,7 @@ nav {
     flex-direction: row;
     align-items: center;
     text-decoration: none;
+    font-weight: bold;
 }
 .images {
     display: grid;
@@ -196,7 +199,7 @@ figcaption {
         font-size: small;    
     }
     footer {
-        width: auto;
+        width: 100%;
         padding-top: 10px;
     }
     .social p {
@@ -220,6 +223,111 @@ figcaption {
     section h2 {
         text-align: center;
     }
+    form {
+        width: 1050px;
+        margin: 0 auto;
+        padding: 1rem;
+        border: 3px solid rgb(0 0 0 / 0.1);
+        border-radius: 0.5rem;
+        background-color: #e9f6fd;
+        display: grid;
+    }
+    body {
+        font-family: Georgia, serif;
+        font-size: 1.3em;
+        color: #333;
+    }
+    .user {
+        margin: 1rem;
+        font-size: 2.0em;
+        color: navy;
+        text-align: center;
+    }
+    label {
+        text-align: left;
+        padding-right: 1rem;
+    }
+    input, textarea {
+        padding: 0.5rem;
+        font-size: 2.1rem;
+    }
+    input[type="checkbox"] {
+        height: 22px;
+        width: 22px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+    input[type="submit"] {
+        margin: 1rem;
+        background-color: navy;
+        color: #fff;
+        border: none;
+        border-radius: 1rem;
+        font-size: 2rem;
+        padding: 1rem;
+        font-size: 2rem;
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mess {
+        display: grid;
+        background-color: #fff;
+        padding: 1px;
+    }
+    .profile {
+        display: grid;
+        color: black;
+        width: 100%;
+        height: auto;
+        border: 1px solid black;
+        background-color: gainsboro;
+        
+    }
+    .staffs {
+        display: flex;
+    }
+    .form {
+        padding-top: 1rem;
+        justify-self: left;
+    }
+    .info {
+        width: 100%;
+        height: auto;
+        border: 1px solid black;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        position: relative;
+        background-color: gainsboro;
+    }
+    .iroko {
+        position: absolute;
+        top: 15%;
+        right: 10%;
+        transform: scale(2);
+        transform: translateX(0%) scale(2);
+        margin-left: 20px;
+    }
+    blockquote {
+        font-size: 29px;
+        color: darkslategrey;
+        font-weight: bold;
+        text-align: left;
+    }
+    iframe {
+        border: 0;
+        border-radius: 8px;
+    }
+    
+    .info-box img {
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+    }
+   
   
     
     
