@@ -67,8 +67,6 @@ body {
     width: 100%;
     height: auto;
     display: block;
-
-
 }
 .hero h1 {
     font-size: 2.5rem;
@@ -76,8 +74,6 @@ body {
     position: absolute;
     bottom: 90%;
     text-align: center;
-
-
 }
 .hero {
     position: relative;
@@ -101,7 +97,6 @@ nav {
     padding: 0;
     gap: 0rem;
     overflow: hidden;
-    
 } 
 .img {
     justify-content: center;
@@ -110,8 +105,7 @@ nav {
     object-fit: cover;
     margin-top: 70px;
     width: 100%;
-    opacity: 0.4;
-    
+    opacity: 0.4;   
 }
 figure {
     display: flex;
@@ -126,15 +120,12 @@ figure {
     align-items: flex-end;
     gap: 0.5rem;
 }
-
 figure img {
     max-width: 100%;
     height: auto;
     display: flex;
     flex: 1 1 auto;
     border-radius: 8px;
-
-
 }
 
 figcaption {
@@ -179,9 +170,7 @@ figcaption {
         color: white;
         text-decoration: none;
         border-radius: 5px;
-        text-align: center;
-       
-      
+        text-align: center;     
     }
     
     header {
@@ -217,8 +206,7 @@ figcaption {
         position: absolute;
         bottom: 0;
         top: 50px;
-        font-stretch: expanded;
-        
+        font-stretch: expanded;    
     }
     section h2 {
         text-align: center;
@@ -282,8 +270,7 @@ figcaption {
         width: 100%;
         height: auto;
         border: 1px solid black;
-        background-color: gainsboro;
-        
+        background-color: gainsboro;   
     }
     .staffs {
         display: flex;
