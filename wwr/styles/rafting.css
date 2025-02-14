@@ -499,7 +499,6 @@ figcaption {
     .her img {
         width: 1247px;
          max-width: 1247px;
-         min-width: 400px;
         height: 100%;
         object-fit: cover;
         
