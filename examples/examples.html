@@ -1,105 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>White Water Rafting</title>
     <link rel="stylesheet" href="examples.css">
 </head>
+
 <body>
     <header>
-        <img src="https://brotherblazzard.github.io/images/icons/coloredGears.png" alt="Sample Logo">
-        <h1>Monieking</h1>
         <nav>
-            <ul class="navigation">
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Contact</a></li>
-                <p></p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <div class="hero">
-    <main>
-        <table>
-            <caption>
-                Monieking Payroll for staffs 
-            </caption>
-            <thead>
-            <tr>
-                <th scope="col">Departments</th>
-                <th scope="col">Staff Name</th>
-                <th scope="col">Key Attribute</th>
-                <th scope="col">Amount paid</th>
-            </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th rowspan="5">Accounting</th>
-                    <th scope="row">Jennifer</th>
-                    <td>Unbelievable Customer Relationship</td>
-                    <td>75,000</td>
-                </tr>
-                <tr>
-                    <th scope="row">Chinonso</th>
-                    <td>Questionable behaviour</td>
-                    <td>30,000</td>
-                </tr>
-                <tr>
-                    <th scope="row">Olamiide</th>
-                    <td>Very dedicated to his Job</td>
-                    <td>25,000</td>
-                </tr>
-                <tr>
-                    <th scope="row">Success</th>
-                    <td>Indeed Succesful</td>
-                    <td>35,000</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th scope="row" colspan="3"> Total Salaries</th>
-                    <td>165,000</td>
-                </tr>
-            </tfoot>
-        </table>
-        <h2>Monieking Contribution online form</h2>
-        <form action="/action_page.php">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" placeholder="John" required ><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" placeholder="Doe" required ><br>
-            <p>Choose your contribution plan</p>
-            <label>Monthly</label>
-            <input type="radio" name="savings" id="savings">
-            <label>3 Months</label>
-            <input type="radio" name="savings" id="savings">
-            <label>6 Months</label>
-            <input type="radio" name="savings" id="savings">
-            <br>
-            <br><label>Date started</label>
-            <input type="date" name="date" id="date"><br> 
-            <br><label>How do you wish to carry out your contribtion?</label>
-            <select id="method" name="method">
-                <option>Visiting physical branches</option>
-                <option>Online</option>
-                <option>Dedicated personell</option>
-            </select>
-            <br>
-            <input type="reset" value="reset">
-            <input type="submit" value="submit">
-            <br>
 
+    <section class="hero">
+        <img src="images/bg5.avif" alt="Rafting Adventure">
+        <div class="hero-text">
+            <h1>Experience the Thrill of Rafting!</h1>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2>Sign Up for Exclusive Updates!</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Sign Up</button>
         </form>
-    </main>
+    </section>
+
+    <section class="cta">
+        <a href="trips.html" class="button">Explore Our Trips</a>
+    </section>
+
+    <section class="grid-layout">
+        <div class="grid-item">
+            <img src="images/1.jpg" alt="Rafting Trip">
+            <h3>Adventure Awaits</h3>
+            <p>Get ready for the ultimate rafting adventure. Experience nature's wild side.</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/2.jpg" alt="Group Rafting">
+            <h3>Group Discounts</h3>
+            <p>Plan a group trip and get exclusive discounts. The more, the merrier!</p>
+        </div>
+    </section>
+
     <footer>
-        <h1>Our headoffice</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31502.260263371852!2d7.3842417000000005!3d9.263717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738666021748!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p>MONIEKING "Your Payment Gateway"</p>
+        <p>&copy; 2025 White Water Rafting | All Rights Reserved | Brigham Young University-Idaho</p>
     </footer>
-    </div>
+
 </body>
 
 </html>
-
