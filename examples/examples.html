@@ -1,62 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>White Water Rafting</title>
+    <title>Login | MonieKing Staff Accounting Portal</title>
     <link rel="stylesheet" href="examples.css">
 </head>
-
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <img src="images/bg5.avif" alt="Rafting Adventure">
-        <div class="hero-text">
-            <h1>Experience the Thrill of Rafting!</h1>
+    <div class="container">
+        <h1>MonieKing Staff Accounting Portal</h1>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form action="dashboard.html" method="POST">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit">Login</button>
+            </form>
         </div>
-    </section>
-
-    <section class="newsletter">
-        <h2>Sign Up for Exclusive Updates!</h2>
-        <form action="#" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <button type="submit">Sign Up</button>
-        </form>
-    </section>
-
-    <section class="cta">
-        <a href="trips.html" class="button">Explore Our Trips</a>
-    </section>
-
-    <section class="grid-layout">
-        <div class="grid-item">
-            <img src="images/1.jpg" alt="Rafting Trip">
-            <h3>Adventure Awaits</h3>
-            <p>Get ready for the ultimate rafting adventure. Experience nature's wild side.</p>
-        </div>
-        <div class="grid-item">
-            <img src="images/2.jpg" alt="Group Rafting">
-            <h3>Group Discounts</h3>
-            <p>Plan a group trip and get exclusive discounts. The more, the merrier!</p>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 White Water Rafting | All Rights Reserved | Brigham Young University-Idaho</p>
-    </footer>
-
+    </div>
 </body>
-
 </html>

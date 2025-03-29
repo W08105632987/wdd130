@@ -1,0 +1,194 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+    color: darkslategray;
+}
+
+header {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: darkslategray center center/cover;
+    background-image: url(Images/Background.png);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.download {
+    background-color: green;
+}
+
+.download:hover {
+    background-color: darkred;
+}
+
+.learn-more {
+    background-color: gray;
+}
+
+.learn-more:hover {
+     background-color: darkred;
+}
+
+
+.features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.feature-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.feature img {
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); ;
+}
+
+
+.why-choose-us {
+    background-color: darkslategray;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.how-it-works {
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.cta {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.cta a {
+    background-color: gainsboro;
+    color: darkslategray;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+/* Crypto Intro Section */
+.crypto-intro {
+    text-align: center;
+    background-color: gainsboro;
+    padding: 50px 20px;
+}
+
+.crypto-intro h2 {
+    color: darkslategray;
+}
+
+.crypto-intro p {
+    color: gray;
+    font-size: 1.1em;
+}
+
+.crypto-intro .learn-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: darkslategray;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.crypto-page {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.crypto-page h1 {
+    font-size: 2.5em;
+    color: darkslategray;
+}
+
+.crypto-page p {
+    font-size: 1.2em;
+    color: grey;
+}
+strong {
+    color: blue;
+}
+.crypto-box {
+    background-color: gainsboro;
+}
